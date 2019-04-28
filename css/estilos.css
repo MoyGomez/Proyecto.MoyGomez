@@ -1,0 +1,475 @@
+
+
+/*AJUSTES GENERALES BODY*/
+
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*AJUSTES DE LA BARRA SUPERIOR*/
+.navbar {
+
+  background: #181D13;
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+}
+
+/*AJUSTES PARA CUALQUIER IMAGEN IMG*/
+img {
+        height: auto;
+        width: 100%;
+        display: block;
+        margin: auto;
+}
+/*AJUSTES DE LA BARRA DE BOTONES VERDES*/
+/*1. ajustes del contorno exterior */
+
+
+
+.cont-title {
+  border: #181D13 solid 2px;
+  display: inline-block;
+  height: auto;
+  color: black;
+  text-align: center;
+  width: 33.3%;
+  float: left;
+  position: sticky;
+
+}
+/*2. ajustes del relleno gris */
+.box-title {
+  padding: 5px 15px;
+     background:#181D13;
+     color:white;
+}
+/*3. ajustes del boton cuando se pasa el puntero */
+.box-title :hover {
+  background: #98E93C;
+  color: black;
+}
+/*4. ajustes del boton */
+.btn-title {
+    padding: 10px 15px;
+    background: #44C1A6;
+    color:white;
+    border: none;
+
+  }
+
+  .btn-title2 {
+      padding: 10px 15px;
+      background: #E69C11;
+      color:white;
+      border: none;
+
+    }
+
+    .btn-title3 {
+        padding: 10px 15px;
+        background: #4F8018;
+        color:white;
+        border-radius: 12px;
+        border: none;
+      }
+
+  #cont1 {
+    background: #3F3F3F;
+  }
+
+  #cont2 {
+    background: #2B2B2B;
+  }
+
+  #cont3 {
+    background: #3F3F3F;
+  }
+
+
+
+/*PIE DE PAGINA*/
+.footer {
+       width: 100%;
+       height: 200px;
+        text-align: center;
+        background-color: #2B2B2B;
+        color: white;
+        padding: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+.footer ul {
+  display: inline-block;
+}
+
+/*CUADROS DE TEXTO DENTRO DE LAS IMAGENES DE FONDO*/
+
+b {
+  color: #00CEA2;
+}
+
+/*boton de los cuadros de texto*/
+.btncaja {
+    padding: 10px 15px;
+    background: #E69C11;
+    color:white;
+    border: none;
+  }
+
+  .btncaja:hover {
+      padding: 10px 15px;
+      background: #70d6ef;
+      color:white;
+      border: none;
+      font-size: 15px;
+    }
+
+
+
+/*Boxes 1*/
+.cajota {
+  width: 1200px;
+  height: 500px;
+  border: white solid 5px;
+  background: none;
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  margin: auto;
+  color: white;
+  text-align: left;
+  padding: 5px 5px;
+  font-size: 20px;
+}
+
+
+#caja1 {
+     position: absolute;
+     bottom: 150px;
+     background: none;
+     border: white solid 2px;
+     color: white;
+     padding: 0px;
+     width: 400px;
+     height: 480px;
+     bottom: 5px;
+     right: 10px;
+     margin: 0px;
+     text-align: center;
+}
+
+#caja1-2 {
+     position: absolute;
+     bottom: 150px;
+     background: none;
+     border: none;
+     color: white;
+     padding: 0px;
+     width: 600px;
+     height: 480px;
+     bottom: 5px;
+     right: 500px;
+     margin: 0px;
+     text-align: center;
+}
+
+.centrado {
+position: absolute;
+top: 50%;
+bottom: 50%;
+}
+
+/*Boxes 2*/
+
+.cajota2 {
+  width: 900px;
+  height: 500px;
+  border: #42d1c5 solid 5px;
+  background: none;
+  position: absolute;
+  right: 50px;
+  top: 1050px;
+  margin: auto;
+}
+
+.cajota2-1 {
+  width: 400px;
+  height: 500px;
+  border: #42d1c5 solid 5px;
+  background: none;
+  position: absolute;
+  left: 140px;
+  top: 1050px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 5px 5px;
+}
+
+.cajatitle2 {
+  width: 600px;
+  height: 50px;
+  border: #42d1c5 solid 2px;
+ position: absolute;
+ top: 890px;
+ font-size: 30px;
+ text-align: center;
+ left: 20px;
+ color: #42d1c5;
+}
+
+#caja2 {
+     position: absolute;
+     bottom: 150px;
+     background: none;
+     border: #42d1c5 solid 2px;
+     color: white;
+     padding: 20px;
+     width: 400px;
+     height: 400px;
+     bottom: 5px;
+     right: 10px;
+     margin: 10px;
+}
+
+#caja2-1 {
+     position: absolute;
+     bottom: 150px;
+     background: none;
+     border: none;
+     color: white;
+     padding: 20px;
+     width: 430px;
+     height: 470px;
+     bottom: 5px;
+     right: 430px;
+     margin: 10px;
+     font-family: sans-serif;
+     text-align: center;
+}
+
+
+/*Boxes 3*/
+
+.cajota3 {
+  width: 900px;
+  height: 700px;
+  border: red solid 5px;
+  background: none;
+  position: absolute;
+  right: 50px;
+  top: 1700px;
+  margin: auto;
+}
+
+.cajota3-1 {
+  width: 400px;
+  height: 500px;
+  border: red solid 5px;
+  background: none;
+  position: absolute;
+  left: 120px;
+  top: 1900px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 5px 5px;
+}
+
+.cajatitle3 {
+  width: 600px;
+  height: 100px;
+  border: red solid 2px;
+ position: absolute;
+ top: 1740px;
+ font-size: 30px;
+ text-align: center;
+ left: 20px;
+ color: red;
+}
+
+#caja3 {
+     position: absolute;
+     bottom: 150px;
+     background: none;
+     border: red solid 2px;
+     color: white;
+     padding: 20px;
+     width: 400px;
+     height: 400px;
+     bottom: 5px;
+     right: 10px;
+     margin: 10px;
+}
+
+#caja3-1 {
+  position: absolute;
+  bottom: 150px;
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  width: 430px;
+  height: 350px;
+  bottom: 5px;
+  right: 420px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#caja3-2 {
+  position: absolute;
+  bottom: 150px;
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  width: 430px;
+  height: 250px;
+  top: 5px;
+  right: 25px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*Boxes 4*/
+
+.cajota4 {
+  width: 900px;
+  height: 700px;
+  border: #967555 solid 5px;
+  background: none;
+  position: absolute;
+  left: 50px;
+  top: 2600px;
+  margin: auto;
+}
+
+.cajota4-1 {
+  width: 400px;
+  height: 500px;
+  border: #967555 solid 5px;
+  background: none;
+  position: absolute;
+  right: 120px;
+  top: 2800px;
+  margin: auto;
+  color: white;
+  text-align: center;
+padding-top: 50px;
+
+}
+
+.cajatitle4 {
+  width: 400px;
+  height: 50px;
+  border: #967555 solid 2px;
+ position: absolute;
+ top: 2590px;
+ font-size: 30px;
+ text-align: center;
+ right:  60px;
+ color: red;
+ color: #967555;
+}
+
+#caja4 {
+     position: absolute;
+     bottom: 150px;
+     background: none;
+     border: #967555 solid 2px;
+     color: white;
+     padding: 20px;
+     width: 400px;
+     height: 400px;
+     bottom: 5px;
+     right: 10px;
+     margin: 10px;
+}
+
+#caja4-1 {
+  position: absolute;
+  background: none;
+  border: none;
+  color: white;
+  padding: 20px;
+  width: 430px;
+  height: 650px;
+  bottom: 5px;
+  right: 420px;
+  margin: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#caja4-2 {
+width: 400px;
+height: 250px;
+border: none;
+right: 10px;
+position: absolute;
+padding-top: 10px;
+color: white;
+text-align: center;
+top: 20px;
+
+}
+
+/*CUADRO FLOTANTE DEL 35 Y PROMOCIONES*/
+.contenedor{
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-35 {
+    padding: 10px 15px;
+    background: #E69C11;
+    color:white;
+    border: yellow solid 2px;
+  }
+
+.btn-35:hover {
+    background-color: #98E93C;
+    color: black;
+}
